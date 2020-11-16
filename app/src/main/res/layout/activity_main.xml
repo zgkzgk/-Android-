@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32sp"/>
+    <Button
+        android:text="Plus One"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/plusOneBtn"/>
+    <Button
+        android:text="Clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearBtn"/>
+    <Button
+        android:text="Get User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getUserBtn"/>
+    <Button
+        android:text="Add Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDataBtn"/>
+    <Button
+        android:text="update Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateDataBtn"/>
+    <Button
+        android:text="delete Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteDataBtn"/>
+    <Button
+        android:text="query Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/queryDataBtn"/>
+</LinearLayout>
